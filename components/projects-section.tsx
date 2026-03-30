@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "Smart Arc Fault Detection System",
+    title: "Predictive Fault Analysis & Electrical Fire Prevention System Using Smart MCB",
     icon: Globe,
     problem: "Electrical faults in domestic power lines, such as overheating, voltage fluctuations, and loose connections, are a major cause of fire hazards and equipment damage. Existing protection systems like conventional MCBs only respond to overcurrent conditions and do not detect early warning signs such as gradual temperature rise, voltage instability, or abnormal operating patterns. As a result, faults often go unnoticed until they escalate into serious failures, leading to fire accidents, property damage, and safety risks.",
     approach: "Designed an intelligent monitoring system that continuously analyzes electrical parameters, detects anomalies through pattern recognition, and provides real-time alerts to prevent catastrophic failures.",
