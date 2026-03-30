@@ -5,12 +5,12 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "College Fest Website Redesign",
+    title: "Smart Arc Fault Detection System",
     icon: Globe,
-    problem: "The existing fest website was outdated, cluttered, and failed to capture the energy of a college cultural event.",
-    approach: "Conducted user research with students, created wireframes focusing on event discovery, and designed a vibrant yet clean interface that maintains usability.",
+    problem: "Electrical faults in domestic power lines, such as overheating, voltage fluctuations, and loose connections, are a major cause of fire hazards and equipment damage. Existing protection systems like conventional MCBs only respond to overcurrent conditions and do not detect early warning signs such as gradual temperature rise, voltage instability, or abnormal operating patterns. As a result, faults often go unnoticed until they escalate into serious failures, leading to fire accidents, property damage, and safety risks.",
+    approach: "Designed an intelligent monitoring system that continuously analyzes electrical parameters, detects anomalies through pattern recognition, and provides real-time alerts to prevent catastrophic failures.",
     tools: ["Figma", "Canva"],
-    outcome: "A concept redesign featuring improved navigation, event categorization, and a modern visual identity that better represents student culture.",
+    outcome: "An integrated IoT solution concept with mobile dashboard, real-time notifications, and predictive fault detection to enhance household electrical safety.",
     gradient: "from-primary/20 via-primary/10 to-transparent",
   },
   {
