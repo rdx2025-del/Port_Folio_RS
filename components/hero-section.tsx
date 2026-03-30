@@ -27,7 +27,7 @@ export function HeroSection() {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-muted-foreground font-medium">
-            UI/UX Designer | Graphic Designer | Creative Explorer
+            UI/UX Designer | Graphic Designer | Creative Explorer | ECE Enthusiast
           </p>
 
           {/* Description */}
