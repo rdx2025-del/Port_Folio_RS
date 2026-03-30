@@ -37,7 +37,7 @@ export function AboutSection() {
             </h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                {"I'm"} Rohitaswa, a designer at the beginning of an exciting journey into the world of UI/UX and product design. While I may not have years of industry experience, what I bring is genuine passion, dedication to craft, and an insatiable curiosity for learning.
+                {"I'm"} Rohitaswa, a hands-on, practical ECE engineer turned designer embarking on an exciting journey into the world of UI/UX and product design. While I may not have years of industry experience, what I bring is genuine passion, dedication to craft, and an insatiable curiosity for learning.
               </p>
               <p>
                 My approach is simple: understand the problem, explore solutions with an open mind, and execute with attention to detail. {"I'm"} constantly absorbing new knowledge, practicing my skills, and pushing myself to create work {"I'm"} proud of.
