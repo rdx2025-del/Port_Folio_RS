@@ -31,6 +31,15 @@ const projects = [
     outcome: "A conversion-focused landing page concept with clear CTAs, trust signals, and responsive design across all breakpoints.",
     gradient: "from-primary/20 via-primary/10 to-transparent",
   },
+  {
+    title: "Mobile App Interface Exploration",
+    icon: Smartphone,
+    problem: "Need for a modern mobile interface that bridges the gap between functionality and aesthetic appeal for users.",
+    approach: "Explored various design patterns, conducted user testing insights, and iterated on visual hierarchy and interaction flows.",
+    tools: ["Figma", "Canva"],
+    outcome: "A polished mobile app interface concept with consistent design system, smooth animations, and accessible color contrasts.",
+    gradient: "from-primary/20 via-primary/10 to-transparent",
+  },
 ]
 
 export function ProjectsSection() {
