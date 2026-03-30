@@ -32,7 +32,7 @@ export function HeroSection() {
 
           {/* Description */}
           <p className="text-base md:text-lg text-muted-foreground max-w-xl leading-relaxed">
-            I design user-centered digital experiences and visuals, driven by curiosity for technology and creative problem-solving.<br><br>
+            I design user-centered digital experiences and visuals, driven by curiosity for technology and creative problem-solving.
           </p>
 
           {/* CTAs */}
