@@ -102,12 +102,7 @@ export function ProjectsSection() {
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-4 border-t border-border/50">
                       <div className="flex flex-wrap gap-2">
                         {project.tools.map((tool, toolIndex) => (
-                          <span
-                            key={toolIndex}
-                            className="px-3 py-1 text-xs rounded-full bg-secondary/50 text-muted-foreground border border-border/50"
-                          >
-                            {tool}
-                          </span>
+                          null
                         ))}
                       </div>
                       <p className="text-xs text-muted-foreground italic">{project.outcome}</p>
