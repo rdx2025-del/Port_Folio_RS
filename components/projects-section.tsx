@@ -25,7 +25,7 @@ const projects = [
     link: "https://www.figma.com/proto/pNWTiGsxYzHWgpZE5lLGId/Workplace?node-id=824-33&p=f&viewport=-2298%2C-582%2C0.24&t=7aU7HfiXQ3scBBsh-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=824%3A33&page-id=0%3A1&show-proto-sidebar=1",
   },
   {
-    title: "Startup Landing Page",
+    title: "Fusionix Website Design",
     icon: Layers,
     problem: "Imaginary SaaS startup needed a landing page that clearly communicates value proposition and drives conversions.",
     approach: "Studied high-converting landing pages, structured content hierarchy for scanning, and designed compelling visual storytelling.",
