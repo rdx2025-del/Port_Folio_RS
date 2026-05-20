@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server"
+import nodemailer from "nodemailer"
 
 export async function POST(request: Request) {
   try {
@@ -22,29 +23,48 @@ export async function POST(request: Request) {
       )
     }
 
-    // Log the contact submission (in production, you would send this to an email service)
-    console.log("Contact form submission:", {
+    // Create email transporter
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASSWORD,
+      },
+    })
+
+    // Email to your email address
+    const mailOptions = {
+      from: process.env.EMAIL_USER,
+      to: "rohitaswasingha@outlook.com",
+      subject: `${name} wants to approach`,
+      html: `
+        <h2>New Contact Form Submission</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Message:</strong></p>
+        <p>${message.replace(/\n/g, "<br>")}</p>
+      `,
+    }
+
+    // Send email
+    await transporter.sendMail(mailOptions)
+
+    // Log the contact submission
+    console.log("Contact form submission sent:", {
       name,
       email,
       message,
       timestamp: new Date().toISOString(),
     })
 
-    // Placeholder for email integration
-    // In production, integrate with services like:
-    // - Resend
-    // - SendGrid
-    // - AWS SES
-    // - Nodemailer
-
     return NextResponse.json(
-      { success: true, message: "Message received successfully" },
+      { success: true, message: "Message sent successfully" },
       { status: 200 }
     )
   } catch (error) {
     console.error("Contact form error:", error)
     return NextResponse.json(
-      { error: "Internal server error" },
+      { error: "Failed to send message" },
       { status: 500 }
     )
   }
