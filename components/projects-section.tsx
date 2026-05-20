@@ -27,7 +27,7 @@ const projects = [
   {
     title: "Fusionix Website Design",
     icon: Layers,
-    problem: "Imaginary SaaS startup needed a landing page that clearly communicates value proposition and drives conversions.",
+    problem: "The team was facing lot of problem of how to structure the website so that it looks formal and minima with some good prototyping",
     approach: "Studied high-converting landing pages, structured content hierarchy for scanning, and designed compelling visual storytelling.",
     tools: ["Figma"],
     outcome: "A conversion-focused landing page concept with clear CTAs, trust signals, and responsive design across all breakpoints.",
