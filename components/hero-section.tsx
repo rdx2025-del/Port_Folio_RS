@@ -27,7 +27,7 @@ export function HeroSection() {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-muted-foreground font-medium">
-            UI/UX Designer | Graphic Designer | Creative Explorer
+            ECE Engineer | UI/UX Designer | Graphic Designer | Creative Explorer
           </p>
 
           {/* Description */}
@@ -43,10 +43,10 @@ export function HeroSection() {
                 <Sparkles className="ml-2 h-4 w-4 group-hover:rotate-12 transition-transform" />
               </a>
             </Button>
-            <Button asChild variant="outline" size="lg" className="group bg-transparent">
+            <Button asChild variant="outline" size="lg" className="bg-transparent transition-all duration-300 hover:bg-white hover:text-black" style={{ paddingRight: '11px', paddingLeft: '13px' }}>
               <a href="#projects">
                 View My Work
-                <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
+                <ArrowDown className="ml-2 h-4 w-4 transition-colors duration-300" />
               </a>
             </Button>
           </div>
