@@ -29,7 +29,7 @@ const projects = [
     icon: Layers,
     problem: "Imaginary SaaS startup needed a landing page that clearly communicates value proposition and drives conversions.",
     approach: "Studied high-converting landing pages, structured content hierarchy for scanning, and designed compelling visual storytelling.",
-    tools: ["Figma", "Canva"],
+    tools: ["Figma"],
     outcome: "A conversion-focused landing page concept with clear CTAs, trust signals, and responsive design across all breakpoints.",
     gradient: "from-primary/20 via-primary/10 to-transparent",
     link: undefined,
