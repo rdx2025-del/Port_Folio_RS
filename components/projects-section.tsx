@@ -12,6 +12,7 @@ const projects = [
     tools: ["Figma", "Canva"],
     outcome: "A concept redesign featuring improved navigation, event categorization, and a modern visual identity that better represents student culture.",
     gradient: "from-primary/20 via-primary/10 to-transparent",
+    link: undefined,
   },
   {
     title: "Personal Productivity App UI",
@@ -21,6 +22,7 @@ const projects = [
     tools: ["Figma", "Affinity"],
     outcome: "A clean mobile app concept with intuitive gestures, thoughtful micro-interactions, and a calming color palette to reduce cognitive load.",
     gradient: "from-primary/15 via-primary/5 to-transparent",
+    link: "https://www.figma.com/proto/pNWTiGsxYzHWgpZE5lLGId/Workplace?node-id=824-33&p=f&viewport=-2298%2C-582%2C0.24&t=7aU7HfiXQ3scBBsh-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=824%3A33&page-id=0%3A1&show-proto-sidebar=1",
   },
   {
     title: "Startup Landing Page",
@@ -30,6 +32,7 @@ const projects = [
     tools: ["Figma", "Canva"],
     outcome: "A conversion-focused landing page concept with clear CTAs, trust signals, and responsive design across all breakpoints.",
     gradient: "from-primary/20 via-primary/10 to-transparent",
+    link: undefined,
   },
 ]
 
@@ -76,7 +79,13 @@ export function ProjectsSection() {
                       <h4 className="text-xl md:text-2xl font-semibold text-foreground group-hover:text-primary transition-colors">
                         {project.title}
                       </h4>
-                      <ArrowUpRight className="h-5 w-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all shrink-0" />
+                      {project.link ? (
+                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="shrink-0">
+                          <ArrowUpRight className="h-5 w-5 text-muted-foreground hover:text-primary group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all cursor-pointer" />
+                        </a>
+                      ) : (
+                        <ArrowUpRight className="h-5 w-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all shrink-0" />
+                      )}
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-6 text-sm">
