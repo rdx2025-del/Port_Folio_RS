@@ -15,7 +15,7 @@ const projects = [
     link: undefined,
   },
   {
-    title: "Personal Productivity App UI",
+    title: "SORA Website Redesign",
     icon: Smartphone,
     problem: "Existing productivity apps felt overwhelming with features, making simple task management unnecessarily complex.",
     approach: "Focused on minimalism and clarity. Designed around the core loop of adding, organizing, and completing tasks with zero friction.",
