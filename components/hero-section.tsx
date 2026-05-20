@@ -43,7 +43,7 @@ export function HeroSection() {
                 <Sparkles className="ml-2 h-4 w-4 group-hover:rotate-12 transition-transform" />
               </a>
             </Button>
-            <Button asChild variant="outline" size="lg" className="bg-transparent transition-all duration-300 hover:bg-white hover:text-black" style={{ paddingRight: '11px' }}>
+            <Button asChild variant="outline" size="lg" className="bg-transparent transition-all duration-300 hover:bg-white hover:text-black" style={{ paddingRight: '11px', paddingLeft: '13px' }}>
               <a href="#projects">
                 View My Work
                 <ArrowDown className="ml-2 h-4 w-4 transition-colors duration-300" />

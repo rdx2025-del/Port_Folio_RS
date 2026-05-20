@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "College Fest Website Redesign",
+    title: "Rangrez Website Redesign",
     icon: Globe,
     problem: "The existing fest website was outdated, cluttered, and failed to capture the energy of a college cultural event.",
     approach: "Conducted user research with students, created wireframes focusing on event discovery, and designed a vibrant yet clean interface that maintains usability.",
