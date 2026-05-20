@@ -32,7 +32,7 @@ const projects = [
     tools: ["Figma"],
     outcome: "A conversion-focused landing page concept with clear CTAs, trust signals, and responsive design across all breakpoints.",
     gradient: "from-primary/20 via-primary/10 to-transparent",
-    link: undefined,
+    link: "https://www.figma.com/proto/pNWTiGsxYzHWgpZE5lLGId/Workplace?page-id=209%3A1505&node-id=983-9&viewport=624%2C585%2C0.29&t=3YCfL3pmxLaGW5KS-1&scaling=scale-down&content-scaling=fixed",
   },
 ]
 
