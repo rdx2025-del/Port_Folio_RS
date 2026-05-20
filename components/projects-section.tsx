@@ -28,7 +28,7 @@ const projects = [
     title: "Fusionix Website Design",
     icon: Layers,
     problem: "The team was facing lot of problem of how to structure the website so that it looks formal and minima with some good prototyping",
-    approach: "Studied high-converting landing pages, structured content hierarchy for scanning, and designed compelling visual storytelling.",
+    approach: "I made them the UI which looked minimal and has great prototyping and the colours got immense balance to the website",
     tools: ["Figma"],
     outcome: "A conversion-focused landing page concept with clear CTAs, trust signals, and responsive design across all breakpoints.",
     gradient: "from-primary/20 via-primary/10 to-transparent",
